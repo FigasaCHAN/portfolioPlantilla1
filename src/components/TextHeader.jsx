@@ -1,13 +1,13 @@
 import React from 'react';
 import ImgSource from "../resource/img-source.json";
-const COVER_PHOTO = ImgSource['cover-photo'];
+//const COVER_PHOTO = ImgSource['cover-photo'];
 
 export function TextHeader() {
   return (
     <section className='text-header'>
       <h1> Potencia tus ventas al menos a un 200% </h1>
-      <h2 style={{color:'blue'}}> Con una pagina web potente {COVER_PHOTO} </h2>
-      <img src={COVER_PHOTO} alt="Cover-Photo"/>
+      <h2 style={{color:'blue'}}> Con una pagina web potente</h2>
+      {/* <img src={COVER_PHOTO} alt="Cover-Photo"/> */}
 
       <div className="wave" style={{height: "150px", overflow: "hidden"}}>
                 <svg viewBox={"0 0 500 150"} preserveAspectRatio="none"
