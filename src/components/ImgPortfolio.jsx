@@ -9,6 +9,7 @@ export function ImgPortfolio(props) {
 
         <div className='hover-img-of-gallery'>
             <img src={IMG_HOVER} alt="" />
+            <p> VER </p>
         </div>
     </div>
   )
