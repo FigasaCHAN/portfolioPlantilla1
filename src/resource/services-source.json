@@ -1,0 +1,19 @@
+{
+    "services": [
+        {
+            "name": "Name",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?",
+            "img": "http://drive.google.com/uc?export=view&id=1zQnzRKpb7_nn8DoZjQkp7_jii92a41BZ"
+        },
+        {
+            "name": "Name",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?",
+            "img": "http://drive.google.com/uc?export=view&id=1ouuUbQQSb8fj9Tmpj5LrBbwL7ajyma1Z"
+        },
+        {
+            "name": "Name",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?",
+            "img": "http://drive.google.com/uc?export=view&id=1r7GROhzHhyoHCdwlY6poo6RnHrZ1O0jj"
+        }
+    ]
+}

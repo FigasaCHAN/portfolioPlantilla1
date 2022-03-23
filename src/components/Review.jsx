@@ -16,7 +16,7 @@ export function Review() {
 
 function GenerateCardsClient() {
   let retList= CLIENT.map((elem)=> 
-    <CardClient key= {uuidv4()} avatar= {elem['avatar']}  name= {elem['name']} text= {elem['text']} /> 
+      <CardClient key= {uuidv4()} avatar= {elem['avatar']}  name= {elem['name']} text= {elem['text']} /> 
     )
   return retList; 
 }
