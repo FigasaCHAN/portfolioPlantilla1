@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Portfolio.css";
 
-import { GalleryPortfolio } from './GalleryPortfolio';
+import { GalleryPortfolio } from './Gallery/GalleryPortfolio';
 
 export function Portfolio() {
   return (

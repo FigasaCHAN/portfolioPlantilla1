@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Review.css";
-import ClientSource from "../resource/client-source.json";
+import ClientSource from "../../resource/client-source.json";
 import { v4 as uuidv4 } from 'uuid';
 import { CardClient } from './CardClient';
 const CLIENT = ClientSource['client'];

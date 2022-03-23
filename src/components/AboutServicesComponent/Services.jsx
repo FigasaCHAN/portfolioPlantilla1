@@ -1,6 +1,6 @@
-import React from 'react'
-import {v4 as uuidv4} from 'uuid'
-import ServicesSource from "../resource/services-source.json"
+import React from 'react';
+import {v4 as uuidv4} from 'uuid';
+import ServicesSource from "../../resource/services-source.json";
 import { ServiceItem } from './ServiceItem';
 const SERVICES_LIST = ServicesSource['services'];
 
