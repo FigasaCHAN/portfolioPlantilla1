@@ -1,0 +1,14 @@
+{
+    "client": [
+        {
+            "avatar": "https://i.ibb.co/W625nk9/face1.jpg",
+            "name": "FirstName  LastName",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quidem sunt quia quaerat veniam quam? "
+        },
+        {
+            "avatar": "https://i.ibb.co/sRKq9t1/face2.jpg",
+            "name": "FirstName  LastName",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quidem sunt quia quaerat veniam quam? "
+        }
+    ]
+}
