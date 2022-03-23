@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./GalleryPortfolio.css";
 import ImgSource from "../resource/img-source.json";
 import { ImgPortfolio } from './ImgPortfolio';
 import { v4 as uuidv4 } from 'uuid';
