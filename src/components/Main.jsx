@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./Main.css";
 import { AboutMe } from './AboutMe'
 import { AboutServices } from './AboutServices'
 import { Portfolio } from './Portfolio'

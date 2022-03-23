@@ -1,6 +1,6 @@
 import React from 'react'
-
-import { TitleWithText } from './TitleWithText'
+import "./AboutMe.css";
+import { TitleWithText } from './TitleWithText';
 import ImgSource from "../resource/img-source.json";
 const IMG_ABOUT_ME = ImgSource['illustrations']["aboutMe"];
 

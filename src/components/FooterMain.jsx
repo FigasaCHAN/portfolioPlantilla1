@@ -1,4 +1,5 @@
 import React from 'react';
+import "./FooterMain.css";
 import {v4 as uuidv4} from 'uuid';
 import ContactSource from "../resource/contact-source.json";
 import { FooterContent } from './FooterContent';
@@ -6,9 +7,9 @@ import { FooterContent } from './FooterContent';
 const INFO_CONTACT = ContactSource['infoContact'];
 const SIGNING = ContactSource['signing'];
 
-export function Footer() {
+export function FooterMain() {
   return (
-    <footer>
+    <footer className='FooterMain'>
       <div className='container'>
         {GenerateFooterContents()}
       </div>

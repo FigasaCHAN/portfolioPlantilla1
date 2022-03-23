@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 import "./App.css";
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
-import { Main } from './components/Main'
+import { FooterMain } from './components/FooterMain';
+import { HeaderMain } from './components/HeaderMain';
+import { Main } from './components/Main';
 export function App(){
   return (
     <Fragment>
-      <Header/>
+      <HeaderMain/>
       <Main/>
-      <Footer/>
+      <FooterMain/>
     </Fragment>
 
   )
