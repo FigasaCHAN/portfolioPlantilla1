@@ -4,7 +4,7 @@ export function FooterContent(props) {
     const NAME= props['nameContact'];
     const VALUE= props['valueContact'];
     return (
-      <div className='footer-content'>
+      <div className='content'>
           <h4> {CapitalizeString(NAME)} </h4>
           <p> {CapitalizeString(VALUE)} </p>
       </div>

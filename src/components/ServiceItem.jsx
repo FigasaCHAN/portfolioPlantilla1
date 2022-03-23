@@ -6,7 +6,7 @@ export function ServiceItem(props) {
     const DESCRIPTION= props['descriptionService'];
     return (
 
-      <div className='service-item'>
+      <div className='ServiceItem'>
           <img src={IMG} alt={NAME} />
           <h3>{NAME}</h3>
           <p> {DESCRIPTION}</p>

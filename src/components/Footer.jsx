@@ -9,7 +9,7 @@ const SIGNING = ContactSource['signing'];
 export function Footer() {
   return (
     <footer>
-      <div className='footer-container'>
+      <div className='container'>
         {GenerateFooterContents()}
       </div>
       <h2 className='signing'> {SIGNING} </h2>

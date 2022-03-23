@@ -6,7 +6,7 @@ const SERVICES_LIST = ServicesSource['services'];
 
 export function Services() {
     return (
-      <div className='services-container'>
+      <div className='container'>
           {GenerateServicesItem()}
       </div>
     )

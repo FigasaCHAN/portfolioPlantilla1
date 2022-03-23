@@ -7,7 +7,7 @@ const CLIENT = ClientSource['client'];
 
 export function Review() {
   return (
-    <section className='client-container'>
+    <section className='container'>
       <h2 className='title'> Que dicen nuestros clientes </h2>
       {GenerateCardsClient()};
     </section>

@@ -3,9 +3,9 @@ import { Services } from './Services'
 
 export function AboutServices() {
   return (
-    <section className='about-services'>
-        <div className='about-services-container'>
-            <h2 className='about-services-tittle'></h2>
+    <section className='AboutServices'>
+        <div className='container'>
+            <h2 className='title'> Service </h2>
             <Services/>
         </div>
     </section>

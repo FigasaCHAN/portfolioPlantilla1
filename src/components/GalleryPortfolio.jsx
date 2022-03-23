@@ -9,7 +9,7 @@ const GALLERY_PHOTOS= ImgSource['gallery'];
 
 export function GalleryPortfolio() {
   return (
-    <div className='gallery-portfolio'>
+    <div className='GalleryPortfolio'>
         {LoadImgPortfolio()}
     </div>
   )

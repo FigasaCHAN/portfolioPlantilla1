@@ -4,7 +4,7 @@ const IMG_HOVER = ImgSource['img-hover'];
 
 export function ImgPortfolio(props) {
   return (
-    <div className='img-portfolio'>
+    <div className='ImgPortfolio'>
         <img src={props['imgURL']} alt={props['altTEXT']}/>
 
         <div className='hover-img-of-gallery'>
