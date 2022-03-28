@@ -1,0 +1,14 @@
+.ServiceItem{
+  width: 28%; /* segun la cantidad de imagenes */
+  text-align: center;
+}
+.ServiceItem img{
+  width: 90%;
+}
+.ServiceItem h3{
+  margin: 10px 0;
+}
+.ServiceItem p{
+  font-weight: 300;
+  text-align: justify;
+}

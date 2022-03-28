@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Services.css";
 import {v4 as uuidv4} from 'uuid';
 import ServicesSource from "../../resource/services-source.json";
 import { ServiceItem } from './ServiceItem';
@@ -6,7 +7,7 @@ const SERVICES_LIST = ServicesSource['services'];
 
 export function Services() {
     return (
-      <div className='container'>
+      <div className='Services'>
           {GenerateServicesItem()}
       </div>
     )

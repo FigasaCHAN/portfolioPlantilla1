@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./ServiceItem.css";
 export function ServiceItem(props) {
     const IMG= props['imgURL'];
     const NAME= props['nameService']; 
