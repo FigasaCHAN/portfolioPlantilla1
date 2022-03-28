@@ -11,7 +11,9 @@ export function Review() {
     <section className='Review'>
       <div className='container'>
         <h2 className='title'> Que dicen nuestros clientes </h2>
-        {GenerateCardsClient()};
+        <div className='CardsClients'>
+          {GenerateCardsClient()};
+        </div>
       </div>
     </section>
   )

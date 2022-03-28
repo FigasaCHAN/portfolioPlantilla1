@@ -11,3 +11,7 @@
     margin-bottom: 60px;
   }
   
+.Review .CardsClients{
+    display: flex;
+    justify-content: space-evenly;
+}

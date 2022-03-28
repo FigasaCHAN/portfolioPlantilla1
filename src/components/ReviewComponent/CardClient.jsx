@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import './CardClient.css';
 export function CardClient(props) {
   const AVATAR= props['avatar'];
   const NAME= props['name'];
