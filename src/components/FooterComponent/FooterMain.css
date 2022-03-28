@@ -1,16 +1,46 @@
 .FooterMain{
-
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
 }
 .FooterMain .container{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.FooterMain .content{
+    text-align: center;
+}
+.FooterMain .content h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.FooterMain .content p{
+    color: #ccc;
+}
+.FooterMain .signing{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+/*  .FooterMain .container{
     padding: 60px 0;
     width: 90%;
     max-width: 1000px;
     overflow: hidden;
-}
-.FooterMain .title{
+} */
+/* .FooterMain .title{
     color: #642a73;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
   }
-  
+   */
+ 
