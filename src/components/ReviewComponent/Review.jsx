@@ -12,7 +12,7 @@ export function Review() {
       <div className='container'>
         <h2 className='title'> Que dicen nuestros clientes </h2>
         <div className='CardsClients'>
-          {GenerateCardsClient()};
+          {GenerateCardsClient()}
         </div>
       </div>
     </section>

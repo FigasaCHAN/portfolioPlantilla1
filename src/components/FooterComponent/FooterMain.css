@@ -30,17 +30,9 @@
     margin: 20px 0 0 0;
     color: #9e9797;
 }
-/*  .FooterMain .container{
-    padding: 60px 0;
-    width: 90%;
-    max-width: 1000px;
-    overflow: hidden;
-} */
-/* .FooterMain .title{
-    color: #642a73;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 60px;
+@media screen and (max-width:250px){
+  .FooterMain .container{
+      flex-direction: column;
   }
-   */
+}
  

@@ -38,3 +38,17 @@
   color: #fff;
   font-weight: bold;
 }
+
+@media screen and (max-width:900px){
+  .HeaderMain{
+    background-position: center;
+  }
+}
+@media screen and (max-width:250px){
+  .HeaderMain .TextHeader h1{
+    font-size: 35px;
+  }
+  .HeaderMain .TextHeader h2{
+    font-size: 20px;
+  }
+}
